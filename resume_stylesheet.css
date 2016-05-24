@@ -1,0 +1,244 @@
+/*-----------------------------------------------------
+-------          CSS reset start       ----------
+-------------------------------------------------------*/
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+img, ins, kbd, q, s, samp,
+small, strike, strong, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-----------------------------------------------------
+-------          CSS reset end       ----------
+-------------------------------------------------------*/
+
+body {
+	z-index:0;
+	position:absolute;
+	width: 100%;
+	background: url("https://www.dropbox.com/s/umqrddiw8jviblb/bozeman_mountains2.jpg?raw=1") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+p {
+	line-height: 200%;
+	text-size: 100%;
+	font-family: Garamond, Verdana, Arial;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.line-split {
+	width:70%;
+	height:1px;
+	margin-top:6%;
+	margin-bottom:2%;
+	background-color: black;
+}
+
+.header {
+	
+}
+
+.main-section {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 10%;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+	background: #abc6d4;
+	border: 1px solid black;
+}
+
+#page-menu-container {
+	z-index: 20;
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: -4.5%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#page-menu-container ul li{
+	display: inline-block;
+	width: 15%;
+	height: 100%;
+	margin-bottom: 0%;
+	margin-right: 2%;
+	border-radius: 3px;
+	
+}
+
+#page-menu-container p{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	vertical-align: center;
+	color: black;
+	border-radius: 3px;
+	
+}
+
+#page-menu-container p a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding-bottom: 6%;
+	border-radius: 3px;
+	background: #89aec2;
+	border: 1px solid black;
+	
+}
+
+#page-menu-container a:hover {
+	background: #abc6d4;
+}
+
+.active{
+	background: #008080;
+}
+
+#page-menu-container #resume_link {
+	z-index: 1;
+	padding-bottom: 7%;
+	background: #abc6d4;
+	border-bottom: 0;
+}
+
+img {
+	display: inline-block;
+	position:relative;
+	width:20%;
+	margin-left:15%;
+	margin-top:5%;
+	border: 3px solid black;
+}
+
+#contact{
+	display: inline-block;
+	position:relative;
+	margin: 0 auto;
+	padding-left:5%;
+	padding-top:7%;
+	font-family: Garamond, Verdana, Arial;
+}
+
+#contact p:first-child{
+	margin-bottom:0;
+	font-weight: bold;
+	font-size: 170%;
+}
+
+#contact p:nth-child(2){
+	font-style: italic;
+	font-size: 130%;
+}
+
+#contact .line-split {
+	width:50%;
+}
+
+#contact p:nth-child(4){
+	font-size: 120%;
+	font-weight: bold;
+	color: black;
+}
+
+#contact p:nth-child(5){
+	font-size: 120%;
+	font-weight: bold;
+	color: black;
+}
+
+#resume-body {
+	margin-top: 5%;
+}
+
+#resume-body p{
+	font-size:100%;
+	font-family: Garamond, Verdana, Arial;
+}
+
+#resume-body tr td{
+	vertical-align:top;
+}
+
+#resume-body p {
+	margin-top:1%;
+	margin-bottom:1%;
+	padding-left:2%;
+	padding-right:10%;
+}
+
+#objective p {
+	margin-top: 0%;
+	padding: 0;
+	padding-right: 10%;
+}
+
+#experience p {
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+#resume-body tr td:first-child{
+	padding-left:8%;
+	vertical-align:top;
+	font-size:140%;
+	font-family: Garamond, Verdana, Arial;
+}
+
+#resume-body tr td:nth-child(2){
+	position: relative;
+	padding-left:18%;
+	vertical-align:top;
+	font-size:100%;
+	font-family: Garamond, Verdana, Arial;
+}
+
+#experience span{
+	font-style: italic;
+}
+
+#education h6{
+	margin-left: 2%;
+	margin-bottom: 0%;
+}
+
