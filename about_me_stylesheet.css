@@ -172,6 +172,7 @@ span {
 }
 
 #left-side {
+	z-index: 0;
 	display: inline-block;
 	width: 30%;
 	margin-left: 5%;
@@ -190,10 +191,12 @@ span {
 }
 
 #right-side {
+	z-index: 0;
 	position: relative;
 	display: inline-block;
 	width: 40%;
 	margin-top: 5%;
+	margin-left: 5%;
 	text-align: left;
 	vertical-align: top;
 }
