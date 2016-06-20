@@ -84,6 +84,7 @@ h4 {
 h6{
 	font-size: 120%;
 	margin-top: 5%;
+	margin-bottom: 3%;
 	font-family: Garamond, Verdana, Arial;
 }
 
@@ -194,7 +195,7 @@ span {
 	z-index: 0;
 	position: relative;
 	display: inline-block;
-	width: 40%;
+	width: 50%;
 	margin-top: 5%;
 	margin-left: 5%;
 	text-align: left;
